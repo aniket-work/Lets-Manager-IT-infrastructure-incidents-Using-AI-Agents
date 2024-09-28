@@ -1,0 +1,11 @@
+{
+  "firecrawl_api_key": "fc-30e12d4efc9047ea952e85647764db23",
+  "log_patterns": [
+    "ERROR",
+    "CRITICAL",
+    "FATAL",
+    "Connection lost",
+    "CPU overload"
+  ],
+  "system_log_file": "system_logs.txt"
+}

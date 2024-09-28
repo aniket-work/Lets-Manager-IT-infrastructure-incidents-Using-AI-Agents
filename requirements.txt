@@ -1,0 +1,8 @@
+streamlit
+groq
+crewai
+crewai[tools]
+loguru
+markdown
+langchain-groq
+firecrawl

@@ -1,0 +1,49 @@
+{
+  "model": {
+    "name": "MODEL_NAME",
+    "provider": "groq",
+    "api_base": "https://api.groq.com"
+  },
+  "logging": {
+    "level": "DEBUG",
+    "file": "run.log",
+    "format": "%(asctime)s - %(levelname)s - %(message)s"
+  },
+  "agents": [
+    {
+      "role": "Log Monitor",
+      "goal": "Monitor system logs and detect critical errors.",
+      "tools": ["FileReadTool"],
+      "backstory": "The agent is responsible for ensuring the stability of server operations by continuously analyzing log data."
+    },
+    {
+      "role": "External Data Collector",
+      "goal": "Fetch relevant information from external sources about the anomaly.",
+      "tools": ["FirecrawlCrawlWebsiteTool"],
+      "backstory": "The agent specializes in gathering information from various external sources such as forums, news articles, and vulnerability databases. Its objective is to complement internal log analysis by providing additional insights."
+    },
+    {
+      "role": "Incident Reporter",
+      "goal": "Generate a detailed incident report based on log data and external sources.",
+      "tools": [],
+      "backstory": "The agent is responsible for consolidating all gathered information, including detected log anomalies and external data, into a comprehensive incident report."
+    }
+  ],
+  "tasks": [
+    {
+      "description": "Scan server logs for anomalies like CPU overload or connection issues.",
+      "expected_output": "List of detected anomalies and their timestamps.",
+      "agent": "Log Monitor"
+    },
+    {
+      "description": "Search external sources like forums or vulnerability databases for relevant information.",
+      "expected_output": "Relevant external data about the anomaly.",
+      "agent": "External Data Collector"
+    },
+    {
+      "description": "Compile a report including log anomalies, external context, and resolution suggestions.",
+      "expected_output": "Markdown formatted incident report.",
+      "agent": "Incident Reporter"
+    }
+  ]
+}
