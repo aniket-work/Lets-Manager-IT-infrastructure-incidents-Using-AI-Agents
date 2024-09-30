@@ -1,24 +1,25 @@
 # Let's Manage IT infrastructure incidents Using AI Agents
 
+Building an AI-Powered Incident Management System: A Step-by-Step Guide, Every Detail Spelled Out
+
 ## Introduction
 
-Full Article : [https://medium.com/@learn-simplified/how-to-use-ai-agents-for-customer-support-management-fe313a8238ce
+Full Article : [https://medium.com/@learn-simplified/lets-manage-it-infrastructure-incidents-using-ai-agents-78c7e414e807
 
 ## TL;DR:
 
-This article showcases a practical AI-powered customer support system. We've built a workflow that automatically categorizes queries, analyzes sentiment, and provides appropriate responses. It's a real-world example of how AI can streamline support operations, improve efficiency, and enhance customer satisfaction. 
-Whether you're a business owner or tech enthusiast, you'll see how AI can be applied to solve everyday business challenges. The future of customer support is AI-driven, and this article gives you a glimpse into that future.
+This article guides you through building an AI-powered incident management system. It covers creating AI agents, setting up tasks, and developing a user interface. The system uses advanced language models and is designed to be flexible and scalable. It’s a practical example of how AI can be applied to real-world IT challenges, potentially transforming how businesses handle critical incidents.
 
+
+Picture this: You’re running a bustling IT department, and suddenly, alerts start flooding in. Servers are crashing, networks are faltering, and your team is scrambling. What if I told you there’s a way to handle this chaos more efficiently, using the power of AI? That’s exactly what I set out to create, and I’m excited to share my journey with you.
 
 ## Whats This Project About
 
-This article explores the implementation of an AI-driven customer support system. We've created a streamlined workflow that takes a customer's query, analyzes its content and sentiment, and routes it to the appropriate handler - all in a matter of seconds. 
-The system categorizes queries, understands the customer's emotional state, and can even escalate issues when necessary. It's a practical demonstration of how AI can be integrated into real-world business processes to enhance efficiency and customer satisfaction.
+This article is a deep dive into how I built an AI-powered incident management system from the ground up. I’ll walk you through each component — from creating intelligent AI agents to handle specific tasks, to setting up a user-friendly interface for monitoring and control. You’ll see how I used tools like the Groq language model to give our AI agents the smarts they need, and how I structured the system to be flexible and scalable. It’s not just about the code; it’s about the thought process behind creating a system that can adapt to the ever-changing landscape of IT incidents.
 
 ## Why Work on It?
 
-In today's fast-paced business environment, AI isn't just a buzzword - it's a game-changer. This article shows you, through a concrete example, how AI can be harnessed to revolutionize customer support. While our company is fictional, the techniques and technologies discussed are very real and applicable. You'll see how AI can categorize queries, analyze sentiment, and provide tailored responses, all while maintaining a smooth, intuitive user interface. 
-Whether you're a business owner looking to improve your support processes, a developer interested in AI applications, or just curious about the future of customer service, this article offers valuable insights into the practical implementation of AI in business operations.
+In today’s fast-paced business world, AI isn’t just a buzzword — it’s becoming a necessity. This article shows you, through the lens of a fictional company, how to implement AI in a practical, impactful way. By following along, you’ll gain insights into how AI can transform incident management, potentially saving your company countless hours and resources. You’ll see firsthand how AI can be used to analyze patterns, make quick decisions, and even predict potential issues before they become full-blown crises. Whether you’re a tech leader looking to innovate or a developer curious about AI applications, this article offers valuable insights into the future of IT operations.
 
 
 ## Architecture
