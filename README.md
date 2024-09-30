@@ -1,4 +1,4 @@
-# Lets Manager IT infrastructure incidents Using AI Agents
+# Let's Manage IT infrastructure incidents Using AI Agents
 
 ## Introduction
 
@@ -54,7 +54,7 @@ Whether you're a business owner looking to improve your support processes, a dev
 
 **Install Project Dependencies:**
 
-Follow these steps to set up and run the 'Hands-On Guide: Effectively Using AI Agents for Customer Query Management' project:
+Follow these steps to set up and run the 'Hands-On Guide: Manage IT infrastructure incidents Using AI Agents' project:
 
 1. Navigate to your project directory:
    ```
@@ -69,11 +69,11 @@ Follow these steps to set up and run the 'Hands-On Guide: Effectively Using AI A
    This command installs all the necessary Python packages listed in the requirements.txt file.
 
 
-## Run - Hands-On Guide: Effectively Using AI Agents for Customer Query Management
+## Run - Hands-On Guide: Manage IT infrastructure incidents Using AI Agents
 
    ```bash 
      
       # Run 
-      streamlit run Main.py
+      streamlit run app.py
       
    ```
